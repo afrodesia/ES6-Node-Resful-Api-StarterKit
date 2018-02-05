@@ -1,4 +1,5 @@
 export default {
   "port" : 4444,
-  "mongoUrl": "mongodb://localhost:27017/yhwh"
+  "mongoUrl": "mongodb://localhost:27017/yhwh",
+  "bodyLimit": "100kb"
 }

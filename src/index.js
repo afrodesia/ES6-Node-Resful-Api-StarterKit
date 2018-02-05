@@ -16,11 +16,12 @@ const app = express()
 app.server = http.createServer(app)
 
 // middleware
-
+app.use(bodyPaser.json({
+  limit: config.bodyLimit
+}))
 
 
 // passport config
-
 
 
 // api routes v1
